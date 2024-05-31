@@ -11,7 +11,7 @@ const Board = () => {
         ['', '', '', '', '', '', '']
     ]);
     const [currP, setCurrP] = useState('X');
-    const [oppP, setOppP] = useState('O');
+    
     const [game, setGame] = useState(false);
 
     const checkWin = (row, column, ch, board) => {
@@ -46,7 +46,7 @@ const Board = () => {
         for (let i = column; i >= 0; i--) {
             if (board[row][i] === ch) { count++; } else { break; }
         }
-        if (count >= 4) { return true; }
+        if (count >= 5) { return true; }
 
         return false;
     }
@@ -77,7 +77,7 @@ const Board = () => {
                 setGame(true);
             } else {
                 setCurrP(prev => prev === 'X' ? 'O' : 'X');
-                setOppP(prev => prev === 'X' ? 'O' : 'X');
+                
             }
         }
     }
