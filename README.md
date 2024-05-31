@@ -94,7 +94,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 💬 Contact
 
-For any inquiries or feedback, please reach out to us at **sp-177@example.com**.
+For any inquiries or feedback, please reach out to us at **shub404.x@gmail.com**.
 
 ---
 
